@@ -21,7 +21,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "sequelizer": "^1.1.4"
+    "sequelizer": "^1.1.4",
+    "tedious": "^14.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

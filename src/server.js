@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const sequelize = require('../db/config');
 
 /**
  * Class to begin the server
@@ -11,6 +12,20 @@ class Server {
   constructor() {
     this.app = express();
     this.port = process.env.PORT;
+
+    this.dbConnection();
+    this.middlewares();
+  }
+
+  /**
+   * Method to connect DB
+   */
+  async dbConnection() {
+    try {
+      console.log('Connection has been established successfully.');
+    } catch (error) {
+      console.error('Unable to connect to the database:', error);
+    }
   }
 
   /**
