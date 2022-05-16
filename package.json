@@ -4,7 +4,8 @@
   "description": "This is the backend for the app SpinnTrainn",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/danara88/SpinnTrainnBackendAPI/issues"
   },
-  "homepage": "https://github.com/danara88/SpinnTrainnBackendAPI#readme"
+  "homepage": "https://github.com/danara88/SpinnTrainnBackendAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "sequelizer": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
