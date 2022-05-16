@@ -1,0 +1,19 @@
+{
+  "name": "spinntrainnbackendapi",
+  "version": "1.0.0",
+  "description": "This is the backend for the app SpinnTrainn",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danara88/SpinnTrainnBackendAPI.git"
+  },
+  "author": "SpinnTrainn Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danara88/SpinnTrainnBackendAPI/issues"
+  },
+  "homepage": "https://github.com/danara88/SpinnTrainnBackendAPI#readme"
+}
